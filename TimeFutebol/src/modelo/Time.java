@@ -66,18 +66,14 @@ public class Time {
     }
 
     
-    @Override
-    public String toString() {
-        return "Time{" + "idTime=" + idTime + ", nome=" + nome + ", titulos=" + titulos + ", idade=" + idade + ", torcedores=" + torcedores + '}';
-    }
     
-       public void lerTimes() {
+    public void lerTimes() {
         Scanner ler = new Scanner(System.in);
 
         System.out.print("id Time:");
         this.setIdTime(ler.nextInt());
 
-        System.out.print("Nome:");
+        System.out.print("Nome do Time:");
         this.setNome(ler.next());
 
         System.out.print("Titulos:");
@@ -104,20 +100,10 @@ public class Time {
     public void listarTimes() {
 
         System.out.println("Nome:" + this.getNome());
-        System.out.println("Idade:" + this.getIdade());
+        System.out.println("Titulos:" + this.getTitulos());
 
         System.out.println();
     }
-    
-     public void removerTimes() {
-
-        System.out.println("Time removido!!!");
-        
-
-        System.out.println();
-    }
-    
-    
 }
 
     

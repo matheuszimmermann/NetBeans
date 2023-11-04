@@ -57,10 +57,9 @@ public class TimeFutebol {
         System.out.println("----------------------------");
 
         for (int i = 0; i < listaTimes.size(); i++) {
-            Time timess = listaTimes.remove(listaTimes.size() - 1);
+            Time timess = listaTimes.remove(i);
             timess.visualizarTimes();
         }
-
         System.out.println("----------------------------");
         System.out.println("Time Removido!!!");
         System.out.println("----------------------------");

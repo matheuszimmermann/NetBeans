@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package visao;
 
 import controle.TimeFutebol;
@@ -49,7 +45,7 @@ public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
 
-        System.out.println("...:::  Menu - Agenda :::...");
+        System.out.println("...:::  Menu  :::...");
         System.out.println(""
                 + "\t1) Cadastrar\n"    // Digitar todos os atributos da classe modelo criada para cada um
                 + "\t2) Editar\n"       // Pesquisar e editar um contato, se ele não existe avisar o usuário com mensagem
@@ -59,7 +55,7 @@ public static void main(String[] args) {
                 + "\t6) Ordenar\n"      // Ordenar // vamos implementar na próxima aula
                 + "\t7) Pesquisar\n"    // Pesquisar por um certo contato, ler um nome e pesquisar em toda a lista e depois chamar o visualizar para apresentar os contatos
                 + "\t0) Sair");
-        System.out.print("Opção-> ");
+        System.out.print("Digite a Opção-> ");
 
         op = ler.nextInt();
 

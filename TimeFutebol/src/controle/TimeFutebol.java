@@ -152,9 +152,9 @@ public class TimeFutebol {
         }
         
         if (! timeProcurado) {
-        System.out.println("Time não encontrado. Nenhuma edição realizada.");
+        System.out.println("Time não cadastrado");
     } else{
-        System.out.println("Time Editado.");
+        System.out.println("Time Editado");
     }
 
     }

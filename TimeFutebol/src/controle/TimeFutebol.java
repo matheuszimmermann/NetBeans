@@ -130,11 +130,12 @@ public class TimeFutebol {
 
     for (Time time : listaTimes) {
         if (time.getNome().equalsIgnoreCase(nomeTime)) {
-            System.out.print("Digite o novo id: ");
-            int novoId = ler.nextInt();
             
             System.out.print("Digite o novo nome do time: ");
             String novoNomeTime = ler.next();
+            
+            System.out.print("Digite a pontuacao: ");
+            int novoId = ler.nextInt();
             
             System.out.print("Numero de Titulos: ");
             int novoNumTitulos= ler.nextInt();
@@ -145,8 +146,8 @@ public class TimeFutebol {
             System.out.print("Torcedores: ");
             int novoTorcedores = ler.nextInt();
 
-            time.setIdTime(novoId);
             time.setNome(novoNomeTime);
+            time.setIdTime(novoId);
             time.setTitulos(novoNumTitulos);
             time.setIdade(novoIdade);
             time.setTorcedores(novoTorcedores);
